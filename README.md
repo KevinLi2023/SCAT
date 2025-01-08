@@ -2,6 +2,10 @@
 
 Kaiwen Li, Dezheng Gao, Zelin Yang, and Xing Wei by Xi’an Jiaotong University
 
+### NOTE
+
+"The code for the paper is currently being organized and will be released soon."
+
 ## Abstract
 
 > Fine-tuning a minimal subset of parameters in large well-trained models has emerged as a popular paradigm for transforming prior knowledge to address downstream tasks in computer vision. Although it has shown promising performance in certain vision tasks such as classification, parameter-efficient tuning remains in its infancy and suffers a significant accuracy drop compared to tuning the entire model particularly in field of segmentation. In this paper, we propose a novel tuning method named SCAT (Shared-Convolution Adaptation Tuning), designed to adapt segmentation models to various fine-grained foreground segmentation vision tasks. By injecting strong inductive bias prompts with shared convolutional features into the frozen backbones, SCAT significantly increases the transferability of the pre-trained models with only a few learnable parameters. SCAT delivers superior performance compared to other state-of-the-art fine-tuning methods, domain-specific hand-crafted networks, and even the fully-tuning paradigm across numerous foreground segmentation scenarios. 
